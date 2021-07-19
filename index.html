@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>CoSafe - GoSafe</title>
+</head>
+<body id="home">
+    <header class="hero">
+        <div class="navbar top" id="navbar">
+            <h1 class="logo">
+                <a href="#home"><span class="text-primary">CoSafe</span> GoSafe</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#precautions">Precautionary Measures</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <h1>Together, we can beat this pandemic</h1>
+            <p>Hi, I'm Chitteshwari Satish! I'm a CSE core student who just finished her first year and I'm exploring my interests in technology. I'm currently learning front-end web development after which I intend to learn backend too. Apart from this, I love writing and organizing events. I'm also learning Adobe Photoshop and trying my hand out at design!</p>
+            <a href="#precautions" class="btn"><i class="fas fa-chevron-right"></i> Read More</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="precautions">
+            <header class="precautions-header">
+                <h2>Precautionary Measures</h2>
+                <h4>Prevention is always better than cure. Follow these tips religiously to ensure best prevention from infection with Covid</h4>
+                <div class="measures">
+                    <ul>
+                        <div class="row">
+                            <li class="bg-pink">
+                                <img src="images/mask.jpg" alt="mask">
+                                <h3>Wear a Mask</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam odit enim accusantium id veniam quibusdam asperiores ex temporibus, voluptate molestiae. Magni accusantium qui porro. Modi fuga dicta placeat repellat tempore!</p>
+                            </li>
+                            <li class="bg-aqua">
+                                <img src="images/handwash.jpg" alt="mask">
+                                <h3>Wash Your Hands</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam odit enim accusantium id veniam quibusdam asperiores ex temporibus, voluptate molestiae. Magni accusantium qui porro. Modi fuga dicta placeat repellat tempore!</p>
+                            </li>
+                        </div>
+                        <div class="row">
+                            <li class="bg-pink">
+                                <img src="images/socialdistance.jpg" alt="mask">
+                                <h3>Maintain Social Distancing</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam odit enim accusantium id veniam quibusdam asperiores ex temporibus, voluptate molestiae. Magni accusantium qui porro. Modi fuga dicta placeat repellat tempore!</p>
+                            </li>
+                            <li class="bg-aqua">
+                                <img src="images/vaccine.jpg" alt="mask">
+                                <h3>Get Vaccinated</h3>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam odit enim accusantium id veniam quibusdam asperiores ex temporibus, voluptate molestiae. Magni accusantium qui porro. Modi fuga dicta placeat repellat tempore!</p>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </header>
+        </section>
+
+        <section id="articles">
+            <div>
+                <h2>Important Articles To Refer To NOW!</h2>
+            </div>
+            <div class="column">
+                <div>
+                    <i class="fas fa-viruses"></i>
+                    <a href="https://www.who.int/health-topics/coronavirus#tab=tab_1">Everything You Need To Know About Corona Virus</a>
+                </div>
+                <div>
+                    <i class="fas fa-shield-virus"></i>
+                    <a href="https://www.healthline.com/health/coronavirus-prevention">More Prevention Tips</a>
+                </div>
+                <div>
+                    <i class="fas fa-procedures"></i>
+                    <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/care-for-someone.html">How to Recover From Covid19 at Home</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="column bg-aqua">
+                <h2>Contact Us</h2>
+                <form action="process.php" method="POST" class="callback-form">
+                    <div class="form-control">
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" placeholder="Enter Name">
+                    </div>
+                    <div class="form-control">
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email"placeholder="Enter Email">
+                    </div>
+                    <div class="form-control">
+                        <label for="phone"></label>
+                        <input type="text" name="phone" id="phone" placeholder="Enter Phone">
+                    </div>
+                    <input type="submit" value="Submit" id="submit" class="btn">
+                </form>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2021 - CoSafe GoSafe</p>
+    </footer>
+</body>
+</html>
